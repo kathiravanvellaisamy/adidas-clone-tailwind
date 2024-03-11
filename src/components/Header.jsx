@@ -61,7 +61,7 @@ const Header = () => {
         </div>
         <div>
           <img
-            src="./src/assets/images/logo.png"
+            src="src/assets/images/logo.png"
             className="w-16 md:w-18 cursor-pointer"
           />
         </div>
