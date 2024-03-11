@@ -1,15 +1,15 @@
 const Footer = () => {
   return (
     <div className="flex flex-col justify-center items-center gap-5">
-      <div className="flex flex-col sm:flex-row md:flex-row lg:flex-row gap-5">
+      <div className="flex flex-col sm:flex-row md:flex-row lg:flex-row gap-2">
         <a href="" className="text-[14px] text-slate-300 hover:text-white">
           Privacy Policy
         </a>{" "}
-        <span className="text-white">|</span>
+        <span className="text-white hidden sm:block md:block lg:block">|</span>
         <a href="" className="text-[14px] text-slate-300 hover:text-white">
           Terms & Conditions
         </a>
-        <span className="text-white">|</span>
+        <span className="text-white hidden sm:block md:block lg:block">|</span>
         <a href="" className="text-[14px] text-slate-300 hover:text-white">
           Cookies
         </a>
